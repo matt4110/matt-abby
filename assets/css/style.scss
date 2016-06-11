@@ -52,7 +52,7 @@
 /////////////////////////////////////////////////////////////////////
 body{
 	font-family: 'hero', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	color: $light-grey;
 	background: $off-white;
     overflow-x:hidden;
@@ -304,7 +304,7 @@ a:hover,a:focus{
 	margin-top:0;
 }
 .colored{
-	color: #dc971f;
+	color: darken($light-yellow, 10%);
 }
 .clearit:after,.clearit:before{
 	clear: both;
@@ -349,8 +349,8 @@ a:hover,a:focus{
 
 .btn-toranj {
 	color: #fff;
-	background-color: $sand;
-	border-color: lighten($sand, 10%);
+	background-color: darken($light-blue, 10%);
+	border-color: lighten($light-blue, 10%);
 }
 .btn-toranj.alt {
 	color: $sand;
@@ -361,8 +361,8 @@ a:hover,a:focus{
 .btn-toranj:focus, 
 .btn-toranj:active, 
 .btn-toranj.active{
-	background-color: $light-yellow;
-	border-color: darken($light-yellow, 10%);
+	background-color: $light-blue;
+	border-color: lighten($light-yellow, 10%);
 	color:#fff;
 }
 
@@ -470,7 +470,7 @@ a:hover,a:focus{
 
 .section-title {
 	font-size: 50px;
-	color:#474747;
+	color: $dark-grey;
 	position: relative;
 	padding-bottom: 25px;
 	margin-bottom: 30px;
@@ -481,14 +481,13 @@ a:hover,a:focus{
 		left: 0;
 		width: 80px;
 		height: 5px;
-		background: $sand; 
+		background: $light-yellow; 
 	}
 }
 
 .double-title{
 	font-weight: 800;
 	font-family: 'hero';
-	text-transform: uppercase; 
 	&:after{
 		height: 10px;
 		width: 90px;
@@ -1104,6 +1103,10 @@ ul.list-items{
 	h6{
 		color:darken($dark-grey, 10%);
 	}
+}
+
+img.img-scale{
+	max-width: 100%;
 }
 
 /////////////////////////////////////////////////////////////////////
@@ -3379,15 +3382,15 @@ body.loading #followingBallsG{
 /* Announce box 
 **************************************************/
 .announce-box{
-	padding: 60px;
-	background: #f7f7f7;
+	padding: 20px 40px;
+	background: lighten($light-grey, 30%);
 	font-size: 36px;
-	color:#2b2b2b;
+	color: lighten($dark-grey, 5%);
 
 }
 .announce-box p{
 	margin: 0;
-	line-height: 0.8;
+	line-height: 1em;
 }
 
 /* Team members 

@@ -47,19 +47,19 @@
 
 						<!-- Navigation -->	
 						<ul id="navigation">
-							<li class="menu-item-no-children current-menu-parent"><a href="index.html">Home</a>
+							<li class="menu-item-no-children"><a href="index">Home</a>
 							</li>
 
-							<li class="menu-item-no-children"><a href="gallery.html">Gallery</a>
+							<li class="menu-item-no-children"><a href="gallery">Gallery</a>
 							</li>
 
-							<li class="menu-item-no-children"><a href="about.html">Contact</a>
+							<li class="menu-item-no-children"><a href="about-us">About</a>
 							</li>
 
-							<li class="menu-item-no-children"><a href="contact.php">Contact</a>
+							<li class="menu-item-no-children"><a href="contact">Contact</a>
 							</li>
 
-							<li class="menu-item-no-children"><a href="blog.html">Blog</a>
+							<li class="menu-item-no-children"><a href="blog">Blog</a>
 							</li>
 						</ul>
 						<!-- /Navigation -->	
@@ -75,7 +75,7 @@
 						</ul>
 						<!-- /Social icons -->	
 						<div id="copyright">
-							Copyright 2015.
+							Copyright 2016.
 						</div>
 					</div>
 					<!-- /Sidebar footer -->	

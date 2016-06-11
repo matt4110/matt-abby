@@ -46,7 +46,7 @@
 */
 body {
   font-family: 'hero', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #CEDFDA;
   background: #fafaf5;
   overflow-x: hidden;
@@ -274,7 +274,7 @@ a:hover, a:focus {
   margin-top: 0; }
 
 .colored {
-  color: #dc971f; }
+  color: #dcdcc4; }
 
 .clearit:after, .clearit:before {
   clear: both;
@@ -313,8 +313,8 @@ a:hover, a:focus {
 
 .btn-toranj {
   color: #fff;
-  background-color: #CCCABA;
-  border-color: #e2e1d7; }
+  background-color: #b5dbe8;
+  border-color: white; }
 
 .btn-toranj.alt {
   color: #CCCABA;
@@ -325,8 +325,8 @@ a:hover, a:focus {
 .btn-toranj:focus,
 .btn-toranj:active,
 .btn-toranj.active {
-  background-color: #EFEFE4;
-  border-color: #dcdcc4;
+  background-color: #DCEEF4;
+  border-color: white;
   color: #fff; }
 
 .btn-transparent {
@@ -420,7 +420,7 @@ a:hover, a:focus {
 
 .section-title {
   font-size: 50px;
-  color: #474747;
+  color: #444444;
   position: relative;
   padding-bottom: 25px;
   margin-bottom: 30px; }
@@ -431,12 +431,11 @@ a:hover, a:focus {
     left: 0;
     width: 80px;
     height: 5px;
-    background: #CCCABA; }
+    background: #EFEFE4; }
 
 .double-title {
   font-weight: 800;
-  font-family: 'hero';
-  text-transform: uppercase; }
+  font-family: 'hero'; }
   .double-title:after {
     height: 10px;
     width: 90px; }
@@ -942,6 +941,9 @@ ul.list-items {
   .regular-page h5,
   .regular-page h6 {
     color: #2b2b2b; }
+
+img.img-scale {
+  max-width: 100%; }
 
 #gmap, .gmap {
   min-height: 400px; }
@@ -2969,14 +2971,14 @@ body.loading #followingBallsG {
 /* Announce box 
 **************************************************/
 .announce-box {
-  padding: 60px;
-  background: #f7f7f7;
+  padding: 20px 40px;
+  background: white;
   font-size: 36px;
-  color: #2b2b2b; }
+  color: #515151; }
 
 .announce-box p {
   margin: 0;
-  line-height: 0.8; }
+  line-height: 1em; }
 
 /* Team members 
 **************************************************/
