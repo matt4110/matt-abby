@@ -1,0 +1,11 @@
+//@include hero;
+@mixin hero {
+	font-family: 'Hero', sans-serif;
+	font-weight: normal;
+}
+
+//@include hero-light;
+@mixin hero-light {
+	font-family: 'Hero', sans-serif;
+	font-weight: lighter;
+}
