@@ -377,10 +377,62 @@ textarea {
   src: local("☺"), url("fonts/Hero Light.woff") format("woff"), url("fonts/Hero Light.ttf") format("truetype"), url("fonts/Hero Light.svg") format("svg");
   font-weight: lighter;
   font-style: normal; }
+/*//////// Start Styling /////////*/
 .container {
   margin: 50px; }
 
+.content {
+  margin-top: 100px; }
+
 a {
   text-decoration: none; }
+
+.row {
+  clear: both; }
+
+.grid* {
+  float: left; }
+
+.grid-1-12 {
+  width: 8.3333%; }
+
+.grid-2-12 {
+  width: 16.6666%; }
+
+.grid-3-12 {
+  width: 25%; }
+
+.grid-4-12 {
+  width: 33.3333%; }
+
+.grid-5-12 {
+  width: 41.6666%; }
+
+.grid-6-12 {
+  width: 50%; }
+
+.grid-8-12 {
+  width: 66.6666%; }
+
+.grid-9-12 {
+  width: 75%; }
+
+#logo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 25%; }
+
+nav {
+  display: block;
+  margin-top: 60px;
+  font-family: 'Hero', sans-serif;
+  font-weight: normal;
+  text-align: center; }
+  nav a {
+    margin-right: 50px;
+    color: #444; }
+  nav a:last-child {
+    margin-right: 0; }
 
 /*# sourceMappingURL=style.css.map */
