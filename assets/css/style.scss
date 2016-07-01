@@ -42,22 +42,23 @@ a{
 }
 
 button {
-	@include circle($yellow, 125px);
+	@include circle($light-yellow, 125px);
 	display: block;
 	@include margin($left:auto, $right:auto);
 	text-align: center;
 	vertical-align: middle;
 	font-size:1.2em;
-	color: #fff;
+	position: relative;
+	top: 75px;
+	color: $black;
 	a{
-		color: #fff;
+		position: relative;
+		top: 5px;
+		color: $black;
+		@include margin($top:5px);
 	}
 }
 
-.button{
-	position: relative;
-	top: 75px;
-}
 
 /////////////////////////////// 2.1 Grid ///////////////////////////////////
 

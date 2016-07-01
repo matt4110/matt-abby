@@ -388,7 +388,7 @@ a {
   text-decoration: none; }
 
 button {
-  background-color: #DDDCC0;
+  background-color: #EFEFE4;
   border-radius: 50%;
   height: 125px;
   width: 125px;
@@ -399,13 +399,14 @@ button {
   text-align: center;
   vertical-align: middle;
   font-size: 1.2em;
-  color: #fff; }
-  button a {
-    color: #fff; }
-
-.button {
   position: relative;
-  top: 75px; }
+  top: 75px;
+  color: #222; }
+  button a {
+    position: relative;
+    top: 5px;
+    color: #222;
+    margin-top: 5px; }
 
 .row {
   clear: both; }

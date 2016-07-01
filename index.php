@@ -17,7 +17,7 @@
 		</div>
 	</div>
 
-	<button class="button"><a href="portfolio">see our<br>work</a></button>
+	<button><a href="portfolio">see our<br>work</a></button>
 	
 </div>
 <?php include 'footer.php'; ?>
