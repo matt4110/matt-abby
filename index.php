@@ -17,7 +17,7 @@
 		</div>
 	</div>
 
-	<button><a href="portfolio">see our<br>work</a></button>
+	<button id="home-button"><a href="portfolio">see our<br>work</a></button>
 	
 </div>
 <?php include 'footer.php'; ?>

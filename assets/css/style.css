@@ -390,23 +390,36 @@ a {
 button {
   background-color: #EFEFE4;
   border-radius: 50%;
-  height: 125px;
-  width: 125px;
+  height: 150px;
+  width: 150px;
   border: none;
   display: block;
+  margin-top: 75px;
   margin-right: auto;
+  margin-bottom: 75px;
   margin-left: auto;
   text-align: center;
   vertical-align: middle;
   font-size: 1.2em;
-  position: relative;
-  top: 75px;
   color: #222; }
   button a {
     position: relative;
     top: 5px;
     color: #222;
     margin-top: 5px; }
+  button#home-button {
+    position: relative;
+    top: 75px; }
+
+.clear {
+  *zoom: 1; }
+  .clear:before {
+    display: table;
+    content: " "; }
+  .clear:after {
+    display: table;
+    content: " ";
+    clear: both; }
 
 .row {
   clear: both; }
@@ -456,15 +469,28 @@ h1 {
   color: #222; }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2em;
   color: #222; }
 
 p {
+  font-family: 'Hero', sans-serif;
+  font-weight: normal;
   font-size: 1em;
   color: #444;
   text-align: justify;
   line-height: 1.5em;
   letter-spacing: .15em; }
+
+small {
+  font-family: 'Hero', sans-serif;
+  font-weight: lighter;
+  font-size: .7em;
+  color: #444; }
+
+div {
+  display: block; }
+  div #pricing p {
+    margin: 0; }
 
 #logo {
   display: block;
@@ -487,5 +513,39 @@ nav {
 img {
   max-width: 100%;
   clear: none; }
+  img#about-us {
+    margin-right: 16.66%;
+    margin-bottom: 50px;
+    margin-left: 16.66%;
+    max-width: 66.66%; }
+
+footer {
+  padding-top: 100px; }
+  footer h1 {
+    font-family: 'Hero', sans-serif;
+    font-weight: normal;
+    font-size: 1.1em;
+    color: #222;
+    text-align: center;
+    margin-bottom: -10px; }
+  footer p {
+    font-family: 'Hero', sans-serif;
+    font-weight: lighter;
+    font-size: .8em;
+    color: #444;
+    text-align: center; }
+  footer a {
+    color: #444; }
+  footer .social_media {
+    padding-top: 50px; }
+    footer .social_media a img {
+      float: right;
+      clear: none;
+      width: 30px;
+      height: 30px; }
+    footer .social_media a:first-child img {
+      margin-right: 50px; }
+    footer .social_media a:last-child img {
+      margin-right: 15px; }
 
 /*# sourceMappingURL=style.css.map */
