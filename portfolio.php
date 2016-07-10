@@ -1,9 +1,7 @@
 <?php include 'header.php'; ?>
 	<div class="content">
-		<!-- empty column -->
-		<div class="grid-3-12">&nbsp;</div>
 		<!-- Main content, Image column -->
-		<div class="grid-6-12">
+		<div class="grid-6-12-centered">
 			<ul class="images-column">
 				<li><img src="/photos/terp_eng_01.jpg" alt=""></li>
 				<li><img src="/photos/terp_wed_02.jpg" alt=""></li>
@@ -24,13 +22,11 @@
 				<li class="hidden-images last-child"><img src="/photos/gilboy-3.jpg" alt=""></li>
 			</ul>
 			<button id="loadMore">Load More</button>
-		</div>
+		</div><!-- /grid-6-12-centered -->
 		<!-- 'back to top' -->
-		<div class="grid-3-12">
-			<div class="back_to_top">
-				<a href="#"><img src="/assets/images/up_arrow.png" alt="arrow up"></a>
-				<a href="#">back to top</a>
-			</div>
+		<div class="back_to_top">
+			<a href="#"><img src="/assets/images/up_arrow.png" alt="arrow up"></a>
+			<a href="#">back to top</a>
 		</div>
-	</div>
+	</div><!-- /content -->
 <?php include 'footer.php'; ?>

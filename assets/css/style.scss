@@ -28,6 +28,10 @@
 ////////////////////////// 2.0 General Styles //////////////////////////////
 ////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////
+html{
+	font-size: 13pt;
+}
+
 
 .container{
 	margin: 50px;
@@ -41,13 +45,13 @@ a{
 	text-decoration: none;
 }
 
-button {
+button, input[type="submit"] {
 	@include circle($light-yellow, 150px);
 	display: block;
 	@include margin($left:auto, $right:auto, $top:75px, $bottom:75px);
 	text-align: center;
 	vertical-align: middle;
-	font-size:1.2em;
+	font-size:1.2rem;
 	color: $black;
 	a{
 		position: relative;
@@ -59,6 +63,17 @@ button {
 		position: relative;
 		top: 75px;
 	}
+}
+
+input[type="text"],input[type="email"]{
+	display: block;
+	width: 100%;
+	margin: 25px 0 25px 0;
+	padding: 10px;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom: 1px solid #bbbbbb;
 }
 
 .clear{
@@ -101,6 +116,12 @@ button {
 
 .grid-4-12{
 	width: 33.3333%;
+	&-centered{
+		width: 33.3333%;
+		display: block;
+		float: none;
+		margin: 0 auto 0 auto;
+	}
 }
 
 .grid-5-12{
@@ -109,6 +130,12 @@ button {
 
 .grid-6-12{
 	width: 50%;
+	&-centered{
+		width: 50%;
+		display: block;
+		margin: 0 auto 0 auto;
+		float: none;
+	}
 }
 
 .grid-8-12{
@@ -137,12 +164,12 @@ blockquote{
 }
 
 h1{
-	font-size: 3em;
+	font-size: 3rem;
 	color: $black;
 }
 
 h2{
-	font-size: 2em;
+	font-size: 2rem;
 	color: $black;
 }
 
@@ -150,9 +177,8 @@ p{
 	@include hero;
 	font-size:1em;
 	color: $grey;
-	text-align: justify;
-	line-height: 1.5em;
-	letter-spacing: .15em;
+	line-height: 1.7rem;
+
 }
 
 small{
@@ -163,9 +189,17 @@ small{
 
 div {
 	display: block;
-	#pricing p{
-	margin:0;
+	#pricing 
+	p{
+		margin:0;
 	}
+
+.alert{
+	font-size:1.2rem;
+	color: darken($blue, 20%);
+	line-height: 1.25em;
+}
+
 }
 
 
@@ -219,6 +253,7 @@ img{
 
 .images-column{
 	list-style: none;
+	padding: 0;
 	img{
 		margin-bottom: -4px;
 	}
@@ -242,7 +277,7 @@ footer{
 
 	h1{
 		@include hero;
-		font-size: 1.1em;
+		font-size: 1.1rem;
 		color: $black;
 		text-align: center;
 		margin-bottom: -10px;
@@ -250,9 +285,10 @@ footer{
 
 	p{
 		@include hero-light;
-		font-size: .8em;
+		font-size: .85rem;
 		color: $grey;
 		text-align: center;
+		line-height: 1.5em;
 	}
 
 	a{
