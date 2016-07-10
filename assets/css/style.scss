@@ -342,3 +342,124 @@ footer{
 	}
 }
 
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////// 8.0 Media Queries ////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
+
+//iPad Pro (portrait) iPad Air 2 and iPad mini 4 (landscape)
+@media only screen and (max-width: 1024px){
+
+	#logo{
+		width: 40%;
+	}
+
+	.grid-4-12-centered{
+		width:50%;
+	}
+
+	.grid-6-12-centered{
+		width:66.6666%;
+	}
+
+}
+
+//iPad Air 2 and iPad mini 4 (portrait), and old 800x600 monitors
+@media only screen and (max-width: 800px){
+
+	.container{
+		margin: 50px 20px 20px 20px;
+	}
+
+}
+
+//iPhone 6+
+@media only screen and (max-width: 414px){
+
+	.container{
+		margin: 25px 10px 15px 10px;
+	}
+
+	nav{
+		@include margin($top:30px);
+
+		a{
+			@include margin($right:15px);
+		}
+	}
+
+	h1{
+		font-size:2rem;
+	}
+
+	p{
+		font-size: 1rem;
+	}
+
+	footer .social_media{
+		clear: both;
+		display: block;
+		margin: 0 auto 20px auto;
+		float: none;
+		padding: 0;
+		a{
+
+			img{
+				float: none;
+			}
+
+			&:first-child img{
+				margin:0px 0px 0px 25%;
+			}
+			&:last-child img{
+				margin:0px;
+			}
+		}
+	}
+
+	#logo{
+		width: 57%;
+	}
+
+	img#about-us{
+		max-width: 100%;
+		margin: 10px 0 20px 0;
+	}
+
+	.grid-4-12-centered{
+		width: 90%;
+	}
+
+	.grid-6-12-centered{
+		width: 100%;
+	}
+
+	.content{
+		@include margin($top:40px);
+	}
+
+	.back_to_top{
+		img, a{
+			display: none;
+		}
+	}
+
+	footer{
+		padding-top:20px;
+	}
+
+	footer div.grid-4-12{
+		&:first-child{
+			display: none;
+		}
+		&:nth-child(2){
+			width: 100%;
+			float: none;
+			display: block;
+			margin: 0 auto 0 auto;
+		}
+	}
+
+}

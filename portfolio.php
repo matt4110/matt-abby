@@ -3,23 +3,29 @@
 		<!-- Main content, Image column -->
 		<div class="grid-6-12-centered">
 			<ul class="images-column">
-				<li><img src="/photos/terp_eng_01.jpg" alt=""></li>
-				<li><img src="/photos/terp_wed_02.jpg" alt=""></li>
-				<li><img src="/photos/gilboy-4.jpg" alt=""></li>
-				<li><img src="/photos/gilboy-5.jpg" alt=""></li>
-				<li><img src="/photos/terp_wed_05.jpg" alt=""></li>
-				<!-- 2nd set of images -->
-				<li class="hidden-images"><img src="/photos/terp_wed_01.jpg" alt=""></li>
-				<li class="hidden-images"><img src="/photos/terp_wed_03.jpg" alt=""></li>
-				<li class="hidden-images"><img src="/photos/gilboy-6.jpg" alt=""></li>
-				<li class="hidden-images"><img src="/photos/gilboy-2.jpg" alt=""></li>
-				<li class="hidden-images"><img src="/photos/terp_wed_06.jpg" alt=""></li>
-				<!-- 3rd set of images -->
-				<li class="hidden-images"><img src="/photos/terp_wed_04.jpg" alt=""></li>
-				<li class="hidden-images"><img src="/photos/gilboy-1.jpg" alt=""></li>
-				<li class="hidden-images"><img src="/photos/streich-1.jpg" alt=""></li>
-				<li class="hidden-images"><img src="/photos/bergsma-1.jpg" alt=""></li>
-				<li class="hidden-images last-child"><img src="/photos/gilboy-3.jpg" alt=""></li>
+				<li><img src="/photos/terp_eng_01.jpg" alt="Terpstra Wedding, Grand Rapids"></li>
+				<li><img src="/photos/terp_wed_02.jpg" alt="Terpstra Wedding, Grand Rapids"></li>
+				<li><img src="/photos/gilboy-4.jpg" alt="Gilboy Wedding, Chicago"></li>
+				<li><img src="/photos/gilboy-5.jpg" alt="Gilboy Wedding, Chicago"></li>
+				<li><img src="/photos/terp_wed_05.jpg" alt="Terpstra Wedding, Grand Rapids"></li>
+				<!-- set of images -->
+				<li class="hidden-images"><img src="/photos/terp_wed_01.jpg" alt="Terpstra Wedding, Grand Rapids"></li>
+				<li class="hidden-images"><img src="/photos/terp_wed_03.jpg" alt="Terpstra Wedding, Grand Rapids"></li>
+				<li class="hidden-images"><img src="/photos/gilboy-6.jpg" alt="Gilboy Wedding, Chicago"></li>
+				<li class="hidden-images"><img src="/photos/gilboy-2.jpg" alt="Gilboy Wedding, Chicago"></li>
+				<li class="hidden-images"><img src="/photos/terp_wed_06.jpg" alt="Terpstra Wedding, Grand Rapids"></li>
+				<!-- set of images -->
+				<li class="hidden-images"><img src="/photos/hend_eng_03.jpg" alt="Henderson Engagement, Holland"></li>
+				<li class="hidden-images"><img src="/photos/mothersday-3.jpg" alt="Mothers Day 2016, Grand Rapids"></li>
+				<li class="hidden-images"><img src="/photos/cash_newb_01.jpg" alt="Newborn Portrait, Grand Rapids"></li>
+				<li class="hidden-images"><img src="/photos/hend_eng_01.jpg" alt="Henderson Engagement, Holland"></li>
+				<li class="hidden-images"><img src="/photos/mothersday-1.jpg" alt="Mothers Day 2016, Grand Rapids"></li>
+				<!-- set of images -->
+				<li class="hidden-images"><img src="/photos/terp_wed_04.jpg" alt="Terpstra Wedding, Grand Rapids"></li>
+				<li class="hidden-images"><img src="/photos/gilboy-1.jpg" alt="Gilboy Wedding, Chicago"></li>
+				<li class="hidden-images"><img src="/photos/streich-1.jpg" alt="Family Photos, Iowa"></li>
+				<li class="hidden-images"><img src="/photos/bergsma-1.jpg" alt="Family Photos, Grand Rapids"></li>
+				<li class="hidden-images last-child"><img src="/photos/gilboy-3.jpg" alt="Gilboy Wedding, Chicago"></li>
 			</ul>
 			<button id="loadMore">Load More</button>
 		</div><!-- /grid-6-12-centered -->
