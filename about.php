@@ -14,7 +14,7 @@
 				<p class="grid-6-12">Engagements</p><p class="grid-6-12">$350</p>
 				<p class="grid-6-12">Portraits</p><p class="grid-6-12">$250</p>
 			</div>
-			<button id="about-button"><a href="contact">get ahold<br>of us</a></button>
+			<button id="about-button"><a href="contact.php">get ahold<br>of us</a></button>
 		</div>
 	</div>
 </div>

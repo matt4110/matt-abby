@@ -350,7 +350,7 @@ footer{
 
 
 //iPad Pro (portrait) iPad Air 2 and iPad mini 4 (landscape)
-@media only screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){
 
 	#logo{
 		width: 40%;
@@ -367,7 +367,7 @@ footer{
 }
 
 //iPad Air 2 and iPad mini 4 (portrait), and old 800x600 monitors
-@media only screen and (max-width: 800px){
+@media screen and (max-width: 800px){
 
 	.container{
 		margin: 50px 20px 20px 20px;
@@ -376,7 +376,7 @@ footer{
 }
 
 //iPhone 6+
-@media only screen and (max-width: 414px){
+@media screen and (max-width: 414px){
 
 	.container{
 		margin: 25px 10px 15px 10px;
@@ -438,6 +438,10 @@ footer{
 
 	.content{
 		@include margin($top:40px);
+	}
+
+	.images-column img{
+		margin-bottom: -6px;
 	}
 
 	.back_to_top{

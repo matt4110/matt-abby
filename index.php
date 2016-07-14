@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 	<div class="content">
 
-	<div style="margin-bottom:-4px;" class="grid-1-1">
+	<div style="margin-bottom:-6px;" class="grid-1-1">
 		<img src="/photos/terp_wed_01.jpg" alt="Terpstra bride and groom photo">
 	</div>
 
@@ -17,7 +17,7 @@
 		</div>
 	</div>
 
-	<button id="home-button"><a href="portfolio">see our<br>work</a></button>
+	<button id="home-button"><a href="portfolio.php">see our<br>work</a></button>
 	
 </div>
 <?php include 'footer.php'; ?>
