@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 <div class="content">
 	<div class="row">
-		<img id="about-us" src="/photos/about-us/our-family.jpg" alt="">
+		<img id="about-us" src="/photos/about-us/about-us.jpg" alt="">
 	</div>
 	<div class="row">
 		<div class="grid-4-12-centered">
