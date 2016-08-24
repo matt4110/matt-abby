@@ -1,22 +1,38 @@
 <?php
 
+$EmailFrom = Trim(stripslashes($_POST['Email']));
 $Name = $_POST['Name'];
-$Email = $_POST['Email'];
-$Message = $_POST['Message'];
-$to = 'hello@mattandabby.us';
-$subject = 'Contact Form Submission';
+$EmailTo = "matthew.johnson4110@gmail.com"; // <- Please add your email
+$Subject = "Matt + Abby Photography have received a new message!";
+$Message = Trim(stripslashes($_POST['Message'])); 
 
-$body = "From: $Name\n Email: $Email\n Message: $Message";
-
-
-if ($_POST['submit']){
-
-	if(mail ($to, $subject, $body, $Email)){
-		print "<meta http-equiv=\"refresh\" content=\"0;URL=contact-thanks.php\">";
-	} else {
-		print "<meta http-equiv=\"refresh\" content=\"0;URL=contact-error.php\">";
-	}
-
+// validation
+$validationOK=true;
+if (!$validationOK) {
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=contact-error.php\">";
+  exit;
 }
 
+// prepare email body text
+$Body = "";
+$Body .= "Name: ";
+$Body .= $Name;
+$Body .= "\n";
+$Body .= "Email: ";
+$Body .= $EmailFrom;
+$Body .= "\n";
+$Body .= "Message: ";
+$Body .= $Message;
+$Body .= "\n";
+
+// send email 
+$success = mail($EmailTo, $Subject, $Body, "From: hello@mattandabby.us");
+
+// redirect to success page 
+if ($success){
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=contact-thanks.php\">";
+}
+else{
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=contact-error.php\">";
+}
 ?>
