@@ -16,5 +16,6 @@
 				<a href="portfolio.php">PORTFOLIO</a>
 				<a href="about.php">ABOUT</a>
 				<a href="contact.php">CONTACT</a>
+				<a href="blog.php">BLOG</a>
 			</nav>
 		</header>

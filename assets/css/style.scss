@@ -168,6 +168,11 @@ h1{
 	color: $black;
 }
 
+.blog-header{
+	font-size: 2em;
+	color: $blue;
+}
+
 h2{
 	font-size: 2rem;
 	color: $black;
@@ -175,10 +180,16 @@ h2{
 
 p{
 	@include hero;
-	font-size:1em;
+	font-size:1rem;
 	color: $grey;
 	line-height: 1.7rem;
 
+}
+
+.blog-p{
+	@include hero;
+	font-size: .75rem;
+	color: $light-grey;
 }
 
 small{
